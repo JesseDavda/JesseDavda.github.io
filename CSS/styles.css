@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ecf0f1;
+    box-sizing: border-box;
 }
 
 nav {
@@ -92,7 +93,7 @@ nav h1 {
 }
 
 #middle {
-    margin-top: 80vh;
+    margin-top: 100vh;
     width: 100%;
     height: 50%;
 
@@ -104,8 +105,44 @@ nav h1 {
     z-index: 100;
 }
 
-#middle h2 {
+#middle_content h2 {
     font-family: 'Lato', sans-serif;
-    font-size: 2em;
-    color: #283E51;
+    font-size: 2.5em;
+    color: #4B79A1;
+}
+
+#middle_content p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: #4B79A1;
+}
+
+.repositories {
+    display: flex;
+    flex-direction: row;
+
+    width:30%;
+    height: 200px;
+    background-color: #4B79A1;
+
+    color: #fff;
+
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px #888888;
+}
+
+.repositories p {
+    color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1em !important;
+}
+
+.repositories h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.repositories h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
 }
