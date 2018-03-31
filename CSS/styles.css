@@ -167,6 +167,15 @@ nav h1 {
     opacity: 0.6;
 }
 
+#HourImg {
+    margin-left: 2%;
+}
+
+#HourImg:hover {
+    cursor:pointer;
+    opacity: 0.6;
+}
+
 .display p {
     font-weight: 300;
     text-align: left;
