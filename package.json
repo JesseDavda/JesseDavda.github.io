@@ -1,0 +1,18 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Jesse Davda's Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/OrganTrouble/Website"
+  },
+  "author": "Jesse Davda",
+  "license": "MIT",
+  "dependencies": {
+    "waypoints": "^4.0.1"
+  }
+}
