@@ -15,11 +15,6 @@ nav {
     z-index: 1000;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
 nav h1 {
     margin: 0;
     padding: 0;
@@ -47,6 +42,11 @@ nav h1 {
 .left h3:hover {
     cursor: pointer;
     color: #F3F3F3;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .section {
