@@ -23,4 +23,9 @@ $(document).ready(() => {
         console.log(i);
     }, 3000);
 
+    setInterval(() => {
+        $('#top p').animate({'opacity' : '1'}, 500);
+        $('#top p').animate({'opacity' : '0.5'}, 500);
+    }, 1500);
+
 });
