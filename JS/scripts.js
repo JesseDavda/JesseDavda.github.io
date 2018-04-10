@@ -11,7 +11,7 @@ $(document).ready(() => {
         }
     });
 
-    var words = ["JESSE DAVDA", "A WEB DEVELOPER", "AN ENTREPRENEUR"];
+    var words = ["JESSE DAVDA.", "A WEB DEVELOPER.", "AN ENTREPRENEUR."];
 
     var i = 0;
 
@@ -19,7 +19,7 @@ $(document).ready(() => {
         $("#text-change").fadeOut(500, () => {
             $("#text-change").text(words[i]).fadeIn(500);
         });
-        i = (i == (words.length - 1)) ? 0 : i + 1;
+        i = (i == (words.length - 1)) ? 0 : (i + 1);
         console.log(i);
     }, 3000);
 
