@@ -19,7 +19,7 @@ $(document).ready(() => {
         $("#text-change").fadeOut(500, () => {
             $("#text-change").text(words[i]).fadeIn(500);
         });
-        i = (i == 2) ? 0 : i + 1;
+        i = (i == (words.length - 1)) ? 0 : i + 1;
         console.log(i);
     }, 3000);
 
