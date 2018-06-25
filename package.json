@@ -13,6 +13,7 @@
   "author": "Jesse Davda",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "waypoints": "^4.0.1"
   }
 }

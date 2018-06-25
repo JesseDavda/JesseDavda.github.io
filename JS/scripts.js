@@ -20,7 +20,6 @@ $(document).ready(() => {
             $("#text-change").text(words[i]).fadeIn(500);
         });
         i = (i == (words.length - 1)) ? 0 : (i + 1);
-        console.log(i);
     }, 3000);
 
     setInterval(() => {
@@ -29,3 +28,13 @@ $(document).ready(() => {
     }, 1500);
 
 });
+
+var shortLinks = ['BHexlg9hn6lySVdp4RhkKuKdNRNwkgQEG0f-0U0', '7gTnVfI184aYwJvvQcwWRkLufQ1wKAQ81odRM0', '88zOiDI19Y2H06SylnO338iqKkVnBxhuU53po0'];
+
+for(var i = 0; i <= 2; i++) {
+    axios.get('https://api.instagram.com/oembed?url=http://instagram.com/p/' + shortLinks[i] +'/&maxwidth=320&omitscript=true').then(body => {
+        console.log(body);
+    }).catch(e => {
+        console.log(e);
+    });
+}
