@@ -32,8 +32,10 @@ $(document).ready(() => {
 var shortLinks = ['BHexlg9hn6lySVdp4RhkKuKdNRNwkgQEG0f-0U0', '7gTnVfI184aYwJvvQcwWRkLufQ1wKAQ81odRM0', '88zOiDI19Y2H06SylnO338iqKkVnBxhuU53po0'];
 
 for(var i = 0; i <= 2; i++) {
-    axios.get('https://api.instagram.com/oembed?url=http://instagram.com/p/' + shortLinks[i] +'/&maxwidth=320&omitscript=true').then(body => {
-        console.log(body);
+    axios.get('https://api.instagram.com/oembed?url=http://instagram.com/p/' + shortLinks[i] +'/&maxwidth=320&omitscript=true&hidecaption=true').then(body => {
+        console.log(body.data);
+        var picture = '<img src="' + body.data.thumbnail_url + '" class="ipic" />';
+        $('.picture').append(picture);
     }).catch(e => {
         console.log(e);
     });
