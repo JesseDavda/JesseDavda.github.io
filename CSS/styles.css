@@ -365,6 +365,11 @@ a {
     font-size: 2em;
 }
 
+#facebook_foot, #github_foot {
+    color: #fff;
+    font-size: 2em;
+}
+
 #footer_left p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
