@@ -40,3 +40,19 @@ for(var i = 0; i <= 2; i++) {
         console.log(e);
     });
 }
+
+$.ajax({
+    url: 'https://www.github.com/users/organtrouble/repos',
+    data: {
+      client_id: '8ef6e69737258a4e1cac',
+      client_secret: 'f32fa7c4d6125e1e63a793283e64114d17acb9b7',
+      sort: 'updated',
+      direction: 'desc',
+      cache: 'false'
+  },
+  error: e => {
+      console.log("github_api_error: " + e);
+  }
+}).done((repos) => {
+    console.log(repos);
+});
