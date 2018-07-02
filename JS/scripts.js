@@ -54,5 +54,16 @@ $.ajax({
       console.log("github_api_error: " + e);
   }
 }).done((repos) => {
-    console.log(repos);
+    $.each(repos, (index, repo) => {
+        console.log(repo);
+        var repo_card = '<div class="repo">' +
+            '<h3>' + repo.name + '</h3>' +
+            '<p><strong>Desription: </strong>' + repo.description + '</p>' +
+            '<p class="language"><strong>' + repo.language + '</strong></p>' +
+            '<div class="break"></div>' +
+            '<a href="' + repo.svn_url + '">Learn More</a>' +
+        '</div>';
+
+        $('.repositories').append(repo_card);
+    })
 });

@@ -297,37 +297,95 @@ a {
 }
 
 .repositories {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+    padding: 0 0.25%;
+}
+
+.repo {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
     width:30%;
-    height: 200px;
+    height: 250px;
     background-color: #4B79A1;
 
     color: #fff;
 
     border-radius: 5px;
     box-shadow: 2px 3px 10px #888888;
-    margin-left: 3%;
+    margin: 0 1.66666665%;
     margin-bottom: 2%;
 }
 
-.repositories p {
-    color: #fff !important;
-    font-family: 'Lato', sans-serif !important;
-    font-size: 1em !important;
+.repo h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+
+    margin: 1% 0;
+    margin-left: 3%;
 }
 
-.repositories h3 {
+.repo p {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    color: #fff;
+
+    margin-left: 3%;
 }
 
-.repositories h4 {
+.repo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+
+    width: 35%;
+    height: 50px;
+
+    background-color: #283E51;
+    border-radius: 3px;
+
+    margin: 0 auto;
+    margin-top: 2%;
 }
+
+.language {
+    width: 25%;
+    height: 40px;
+
+    background-color: #57D1C9;
+    border-radius: 3px;
+
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+}
+
+.break {
+    height: 2px;
+    width: 96%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
 
 #footer {
     width: 100%;
