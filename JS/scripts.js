@@ -44,8 +44,8 @@ for(var i = 0; i <= 2; i++) {
 $.ajax({
     url: 'https://api.github.com/users/organtrouble/repos',
     data: {
-      client_id: '8ef6e69737258a4e1cac',
-      client_secret: 'f32fa7c4d6125e1e63a793283e64114d17acb9b7',
+      client_id: 'fe6a05f90ceda83952b9',
+      client_secret: 'f4d0f7b75347ca4d6a11fe8338c590b94b675fbd',
       sort: 'updated',
       direction: 'desc',
       cache: 'false'
