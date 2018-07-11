@@ -1,5 +1,6 @@
-$(document).ready(() => {
+var i = 0;
 
+$(document).ready(() => {
     var navScroll = new Waypoint({
         element: document.getElementById('scroll_waypoint'),
         handler: (direction) => {
@@ -56,7 +57,7 @@ $.ajax({
 }).done((repos) => {
     $.each(repos, (index, repo) => {
         console.log(repo);
-        var repo_card = '<div class="repo">' +
+        var repo_card = '<div class="repo" id="repo' + i + '">' +
             '<h3>' + repo.name + '</h3>' +
             '<p><strong>Desription: </strong>' + repo.description + '</p>' +
             '<p class="language"><strong>' + repo.language + '</strong></p>' +
@@ -65,5 +66,11 @@ $.ajax({
         '</div>';
 
         $('.repositories').append(repo_card);
+
+        if(i > 2) {
+          $(('#repo' + i)).hide();
+        }
+
+        i++;
     })
 });
