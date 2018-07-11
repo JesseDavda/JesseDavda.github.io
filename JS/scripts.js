@@ -42,7 +42,7 @@ for(var i = 0; i <= 2; i++) {
 }
 
 $.ajax({
-    url: 'https://api.github.com/users/organtrouble/repos',
+    url: 'https://api.github.com/users/jessedavda/repos',
     data: {
       client_id: 'fe6a05f90ceda83952b9',
       client_secret: 'f4d0f7b75347ca4d6a11fe8338c590b94b675fbd',
