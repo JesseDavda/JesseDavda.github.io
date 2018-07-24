@@ -1,4 +1,4 @@
-var i = 0;
+var i = 0, repos_shown = 3, length = 0;
 
 $(document).ready(() => {
     var navScroll = new Waypoint({
@@ -55,6 +55,7 @@ $.ajax({
       console.log("github_api_error: " + e);
   }
 }).done((repos) => {
+    length = repos.length
     $.each(repos, (index, repo) => {
         console.log(repo);
         var repo_card = `<div class="repo" id="repo${index}">
@@ -73,5 +74,15 @@ $.ajax({
             console.log(repoToHide);
         }
 
-    })
+    });
+});
+
+$('#loadMore').click(() => {
+    for(y = repos_shown; y < (repos_shown + 6); y++) {
+        $('#repo' + y).show();
+    }
+    repos_shown += 6;
+    if(repos_shown >= length) {
+        $('#loadMore').hide();
+    }
 });

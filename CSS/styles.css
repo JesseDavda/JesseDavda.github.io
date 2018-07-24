@@ -386,6 +386,28 @@ a {
     border-radius: 30px;
 }
 
+#loadMore {
+    margin: 1% auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10%;
+    height: 50px;
+
+    border-radius: 5px;
+    background-color: #4B79A1;
+
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+#loadMore:hover {
+    cursor: pointer;
+}
 
 #footer {
     width: 100%;
