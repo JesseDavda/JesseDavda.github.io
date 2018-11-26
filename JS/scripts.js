@@ -1,3 +1,4 @@
+"use strict";
 var i = 0, repos_shown = 3, length = 0;
 
 $(document).ready(() => {
@@ -34,7 +35,6 @@ var shortLinks = ['BHexlg9hn6lySVdp4RhkKuKdNRNwkgQEG0f-0U0', '7gTnVfI184aYwJvvQc
 
 for(var i = 0; i <= 2; i++) {
     axios.get('https://api.instagram.com/oembed?url=http://instagram.com/p/' + shortLinks[i] +'/&maxwidth=320&omitscript=true&hidecaption=true').then(body => {
-        console.log(body.data);
         var picture = '<img src="' + body.data.thumbnail_url + '" class="ipic" />';
         $('.picture').append(picture);
     }).catch(e => {
@@ -57,7 +57,6 @@ $.ajax({
 }).done((repos) => {
     length = repos.length
     $.each(repos, (index, repo) => {
-        console.log(repo);
         var repo_card = `<div class="repo" id="repo${index}">
             <h3>${repo.name}</h3>
             <p><strong>Desription: </strong>${repo.description}</p>
