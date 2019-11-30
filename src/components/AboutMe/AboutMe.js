@@ -8,7 +8,7 @@ class AboutMe extends Component {
     render() {
         return(
             <div style={styles.aboutMeContainer}>
-                <div style={styles.imageTextContainer}>
+                <div style={styles.imageTextContainer} className={"about-me-container"}>
                     <img style={styles.personalPhoto} src={Jesse} alt={"photo"} />
                     <p style={{...styles.aboutMeTopParagraph, ...styles.noTopMargin}}>
                         My name is Jesse and I am a full-stack web developer, I'm competent in ReactJS and VueJS on the front-extend

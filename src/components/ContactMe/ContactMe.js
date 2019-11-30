@@ -19,7 +19,7 @@ class ContactMe extends Component {
 
     render() {
         return(
-            <div style={styles.contactMeContainer}>
+            <div style={styles.contactMeContainer} className={"contact-me-container"}>
                 <div style={styles.contentContainer}>
                     <img src={contactImage} style={styles.contactImage} />
                     <p style={styles.contactMeText}>I'm always open to discussing collaborations and job opportunities.<br/><br/> You can contact me here:</p>

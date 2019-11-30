@@ -90,26 +90,48 @@ code {
 }
 
 @media screen and (max-width: 1125px) {
+  .footer-container {
+    bottom: 10px !important;
+  }
+
   .menu-container {
     flex-direction: column;
   }
 
   .project-block {
-    width: 200px !important;
-    height: 200px !important;
+    width: 175px !important;
+    height: 175px !important;
   }
 
   .block-title {
-    font-size: 25px !important;
+    font-size: 22px !important;
   }
 
   .inside-background {
     width: 100%;
   }
 
+  .about-me-container {
+    width: 350px;
+  }
+
+  .about-me-container img {
+    width: 350px;
+    height: 255px;
+  }
+
+  .contact-me-container {
+    width: 350px;
+  }
+
+  .contact-me-container img {
+    width: 350px;
+    height: 350px;
+  }
+
   .home-content-container {
     width: 225px !important;
-    margin-top: 0px !important;
+    margin-top: -50px !important;
   }
 
   .project-container {
@@ -120,16 +142,5 @@ code {
 
   .project-text-container {
     width: 100%;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .project-block {
-    width: 175px !important;
-    height: 175px !important;
-  }
-
-  .block-title {
-    font-size: 18px;
   }
 }

@@ -7,7 +7,7 @@ import styles from './Footer.style';
 class Footer extends Component {
     render() {
         return(
-            <div style={styles.footerContainer}>
+            <div style={styles.footerContainer} className={"footer-container"}>
                 <div style={styles.socialMediaIconsContainer}>
                     <a className={"icon-link"} href="https://www.instagram.com/jessedavda" ><FontAwesomeIcon className={"social-icon"} icon={faInstagram} size={"lg"} /></a>
                     <a className={"icon-link"} href="https://www.github.com/JesseDavda" ><FontAwesomeIcon className={"social-icon"} icon={faGithub} size={"lg"} /></a>
