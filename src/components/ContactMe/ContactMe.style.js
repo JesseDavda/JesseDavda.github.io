@@ -18,6 +18,7 @@ const styles = {
     contactMethod: {
         display: 'flex',
         alignItems: 'center',
+        justifyContent: 'flex-start',
         margin: '0px 0px'
     },
     contactIcon: {
