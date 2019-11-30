@@ -4,9 +4,10 @@ const styles = {
         width: '100%',
         display: 'flex',
         alignItems: 'center',
-        justityContent: 'center',
+        justityContent: 'flex-start',
         flexDirection: 'column',
-        paddingTop: '20px'
+        paddingTop: '20px',
+        margin: '0 auto'
     },
     contactMeText: {
         fontSize: '18px',
