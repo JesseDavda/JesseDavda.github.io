@@ -1,7 +1,7 @@
 const styles = {
     contactMeContainer: {
         position: 'relative',
-        width: '100%',
+        width: '415px',
         display: 'flex',
         alignItems: 'center',
         justityContent: 'flex-start',
@@ -19,7 +19,8 @@ const styles = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'flex-start',
-        margin: '0px 0px'
+        margin: '0px 0px',
+        width: '100%'
     },
     contactIcon: {
         color: '#222222'
