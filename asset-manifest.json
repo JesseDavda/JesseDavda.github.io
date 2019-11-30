@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/JesseDavda.github.io/static/css/main.870a3479.chunk.css",
+    "main.js": "/JesseDavda.github.io/static/js/main.a44803fc.chunk.js",
+    "main.js.map": "/JesseDavda.github.io/static/js/main.a44803fc.chunk.js.map",
+    "runtime-main.js": "/JesseDavda.github.io/static/js/runtime-main.aa35a2f6.js",
+    "runtime-main.js.map": "/JesseDavda.github.io/static/js/runtime-main.aa35a2f6.js.map",
+    "static/js/2.aae67c7b.chunk.js": "/JesseDavda.github.io/static/js/2.aae67c7b.chunk.js",
+    "static/js/2.aae67c7b.chunk.js.map": "/JesseDavda.github.io/static/js/2.aae67c7b.chunk.js.map",
+    "index.html": "/JesseDavda.github.io/index.html",
+    "precache-manifest.f68af43b3c40eba61eb0bbfa620e258d.js": "/JesseDavda.github.io/precache-manifest.f68af43b3c40eba61eb0bbfa620e258d.js",
+    "service-worker.js": "/JesseDavda.github.io/service-worker.js",
+    "static/css/main.870a3479.chunk.css.map": "/JesseDavda.github.io/static/css/main.870a3479.chunk.css.map",
+    "static/media/EightHours.png": "/JesseDavda.github.io/static/media/EightHours.f75cd5bc.png",
+    "static/media/Storm.png": "/JesseDavda.github.io/static/media/Storm.b65810af.png",
+    "static/media/TwitterAnalyser.png": "/JesseDavda.github.io/static/media/TwitterAnalyser.5345fe8d.png",
+    "static/media/checklist.png": "/JesseDavda.github.io/static/media/checklist.737a3f11.png",
+    "static/media/contact_photo.jpg": "/JesseDavda.github.io/static/media/contact_photo.16afd02e.jpg",
+    "static/media/jesse.jpg": "/JesseDavda.github.io/static/media/jesse.26075fba.jpg",
+    "static/media/snapshot.png": "/JesseDavda.github.io/static/media/snapshot.8a2ab9df.png",
+    "static/media/taxi.png": "/JesseDavda.github.io/static/media/taxi.7cbd43e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa35a2f6.js",
+    "static/js/2.aae67c7b.chunk.js",
+    "static/css/main.870a3479.chunk.css",
+    "static/js/main.a44803fc.chunk.js"
+  ]
+}
