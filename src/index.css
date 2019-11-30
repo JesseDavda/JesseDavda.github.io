@@ -127,6 +127,7 @@ code {
   .contact-me-container img {
     width: 350px !important;
     height: 350px !important;
+    margin: 0 auto;
   }
 
   .home-content-container {

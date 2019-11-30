@@ -20,21 +20,19 @@ class ContactMe extends Component {
     render() {
         return(
             <div style={styles.contactMeContainer} className={"contact-me-container"}>
-                <div style={styles.contentContainer}>
-                    <img src={contactImage} style={styles.contactImage} />
-                    <p style={styles.contactMeText}>I'm always open to discussing collaborations and job opportunities.<br/><br/> You can contact me here:</p>
-                    <div style={styles.contactMethod}>
-                        <div style={styles.iconContainer}>
-                            <FontAwesomeIcon className={"cursor-pointer"} icon={faPaperPlane} style={styles.contactIcon} size={"1x"} onClick={() => this.mailTo()} />
-                        </div>
-                        <h3 className={"cursor-pointer"} style={styles.emailAddress} onClick={() => this.mailTo()} >jessedavda@gmail.com</h3>
+                <img src={contactImage} style={styles.contactImage} />
+                <p style={styles.contactMeText}>I'm always open to discussing collaborations and job opportunities.<br/><br/> You can contact me here:</p>
+                <div style={styles.contactMethod}>
+                    <div style={styles.iconContainer}>
+                        <FontAwesomeIcon className={"cursor-pointer"} icon={faPaperPlane} style={styles.contactIcon} size={"1x"} onClick={() => this.mailTo()} />
                     </div>
-                    <div style={styles.contactMethod}>
-                        <div style={styles.iconContainer}>
-                            <FontAwesomeIcon className={"cursor-pointer"} icon={faGithub} style={styles.contactIcon} size={"1x"} onClick={() => this.github()} />
-                        </div>
-                        <h3 className={"cursor-pointer"} style={styles.emailAddress} onClick={() => this.github()} >Jesse Davda</h3>
+                    <h3 className={"cursor-pointer"} style={styles.emailAddress} onClick={() => this.mailTo()} >jessedavda@gmail.com</h3>
+                </div>
+                <div style={styles.contactMethod}>
+                    <div style={styles.iconContainer}>
+                        <FontAwesomeIcon className={"cursor-pointer"} icon={faGithub} style={styles.contactIcon} size={"1x"} onClick={() => this.github()} />
                     </div>
+                    <h3 className={"cursor-pointer"} style={styles.emailAddress} onClick={() => this.github()} >Jesse Davda</h3>
                 </div>
             </div>
         )
