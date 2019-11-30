@@ -112,21 +112,21 @@ code {
   }
 
   .about-me-container {
-    width: 350px;
+    width: 350px !important;
   }
 
   .about-me-container img {
-    width: 350px;
-    height: 255px;
+    width: 350px !important;
+    height: 255px !important;
   }
 
   .contact-me-container {
-    width: 350px;
+    width: 350px !important;
   }
 
   .contact-me-container img {
-    width: 350px;
-    height: 350px;
+    width: 350px !important;
+    height: 350px !important;
   }
 
   .home-content-container {
@@ -141,6 +141,12 @@ code {
   }
 
   .project-text-container {
-    width: 100%;
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+
+  .project-image-container {
+    width: 100% !important;
+    margin: 0 auto !important
   }
 }

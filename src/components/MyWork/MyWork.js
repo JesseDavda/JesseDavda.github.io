@@ -40,7 +40,7 @@ class Project extends Component {
         return(
             <div style={styles.projectContainer} className={"project-container"}>
                 {this.state.width <= 1125 ? (<h2 style={styles.projectTitle} className={"mobile-project-title"}>{this.props.projectTitle}</h2>) : ""}
-                <div style={styles.imageContainer}><img style={styles.projectImage} src={this.props.projectImage} alt={"Project"} /></div>
+                <div style={styles.imageContainer} className={"project-image-container"}><img style={styles.projectImage} src={this.props.projectImage} alt={"Project"} /></div>
                 <div style={styles.textContainer} className={"project-text-container"}>
                     {this.state.width >= 1125 ? (<h2 style={styles.projectTitle}>{this.props.projectTitle}</h2>) : ""}
                     <p style={styles.projectDescription}>{this.props.projectDescription}</p>
