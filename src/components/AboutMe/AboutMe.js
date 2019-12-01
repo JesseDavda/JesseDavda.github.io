@@ -11,7 +11,7 @@ class AboutMe extends Component {
                 <div style={styles.imageTextContainer} className={"about-me-container"}>
                     <img style={styles.personalPhoto} src={Jesse} alt={"photo"} />
                     <p style={{...styles.aboutMeTopParagraph, ...styles.noTopMargin}}>
-                        My name is Jesse and I am a full-stack web developer, I'm competent in ReactJS and VueJS on the front-extend
+                        My name is Jesse and I am a full-stack web developer, I'm competent in ReactJS and VueJS on the front-end
                         and NodeJS, Express and MongoDB on the back-end.
                         <br />
                         <br />
@@ -34,7 +34,7 @@ class AboutMe extends Component {
                         <br />
                         Through this experience I have discovered a true passion for problem solving, both independently and as a member of a team, project
                         managing and taking initative.
-                        I feel inspired and excited about what the tech world has in store for me next
+                        I feel inspired and excited about what the tech world has in store for me next.
                     </p>
                 </div>
             </div>
