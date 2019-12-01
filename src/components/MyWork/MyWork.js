@@ -88,7 +88,7 @@ class MyWork extends Component {
                 <Project
                     projectImage={checklist}
                     projectTitle={"Checklist"}
-                    projectDescription={"Checklist is a web-app built wit VueJS and NodeJS that gives users the ability " +
+                    projectDescription={"Checklist is a web-app built with VueJS and NodeJS that gives users the ability " +
                                         "to create multiple use checklists (routines) that the user can reset and schedule."}
                     projectLink={"https://routine-server.herokuapp.com"}
                     repoLink={"https://github.com/JesseDavda/Checklist"}
@@ -98,7 +98,7 @@ class MyWork extends Component {
                     projectImage={TwitterAnalyser}
                     projectTitle={"Twitter Analyser"}
                     projectDescription={"Twitter analyser was a project that used the Twitter API " + 
-                                        "to collect data about peoples opinions how talked about the Rocky Horror Show. " +
+                                        "to collect data about peoples opinions on a particular topic. " +
                                         "The data was used pitch a documentary about the Rocky Horror Show to Netflix and " + 
                                         "other streaming services."}
                     website={false}
