@@ -21,7 +21,7 @@ const styles = {
         marginLeft: '-5px'
     },
     titleText: {
-        color: '#FFFFFF',
+        color: '#222222',
         position: 'absolute',
         fontWeight:'300',
         fontSize: '28px',
